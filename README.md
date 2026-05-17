@@ -18,7 +18,7 @@ For the `ZeroBoard Lead Full Stack Engineer` take-home assignment.
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/rogerio-zeroboard/logs-dashboard.git
 cd zeroboard
 
 # Copy environment file
@@ -52,17 +52,17 @@ This uses `docker-compose.dev.yml` to mount the frontend source code and run `ne
 
 ### Common Commands
 
-| Command               | Description                                         |
-| --------------------- | --------------------------------------------------- |
-| `just start`          | Start all services in production mode               |
-| `just start --dev`    | Start all services with frontend hot-reload         |
-| `just build`          | Rebuild all containers for production               |
-| `just seed`           | Seed the database with 1.5M sample logs (auto-starts containers if needed) |
-| `just reset`          | Delete all logs from the database (auto-starts containers if needed)    |
-| `just test`           | Run all backend and frontend tests                  |
-| `just test-backend`   | Run backend tests (SQLite — no Docker needed)     |
-| `just test-frontend`  | Run frontend tests                                  |
-| `just stop`           | Stop all containers                                 |
+| Command              | Description                                                                |
+| -------------------- | -------------------------------------------------------------------------- |
+| `just start`         | Start all services in production mode                                      |
+| `just start --dev`   | Start all services with frontend hot-reload                                |
+| `just build`         | Rebuild all containers for production                                      |
+| `just seed`          | Seed the database with 1.5M sample logs (auto-starts containers if needed) |
+| `just reset`         | Delete all logs from the database (auto-starts containers if needed)       |
+| `just test`          | Run all backend and frontend tests                                         |
+| `just test-backend`  | Run backend tests (SQLite — no Docker needed)                              |
+| `just test-frontend` | Run frontend tests                                                         |
+| `just stop`          | Stop all containers                                                        |
 
 ### Running Tests
 
