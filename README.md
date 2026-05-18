@@ -100,12 +100,12 @@ The seed script generates **1,500,000** log records spanning 365 days with:
 
 ## Design Decisions
 
-- **FastAPI:** Async support, automatic OpenAPI docs, Pydantic validation
-- **SQLAlchemy 2.0:** Modern ORM with excellent typing
+- **FastAPI:** Automatic OpenAPI docs, Pydantic validation
+- **SQLAlchemy 2.0:** ORM
 - **TanStack Query:** Handles caching, loading states, and error handling for frontend data fetching
-- **Bulma CSS:** Component-based CSS framework with clean defaults
-- **Recharts:** Simple declarative charting library for the dashboard
-- **TDD:** Tests written first, implementation second (Red → Green → Refactor)
+- **Bulma CSS:** Component-based CSS framework
+- **Recharts:** Charting library
+- **TDD:** Tests written firs (Red → Green → Refactor approach)
 - **Teal branding:** Primary color `#2d8a7e` matching ZeroBoard/Dataseed branding
 - **Light theme only:** Forced via CSS overrides (dark theme out of scope)
 
